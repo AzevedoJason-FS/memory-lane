@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<header>
+    <p id="header">this is head</p>
+</header>
+{{ content }}
+<ul class="myposts">
+    {% for post in site.posts %}
+    <li>
+        <a href="{{post.url}}"x>{{ post.title}}</a>
+    <span class="post_desc">
+        {{post.description}}
+    </span>
+    </li>
+    {% endfor %}
+</ul>
+<footer>
+    <p>this is foot</p>
+</footer>

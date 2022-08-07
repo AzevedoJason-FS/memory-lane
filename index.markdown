@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: console.blog
 layout: home
 ---
+
+# {{ page.title }}
+
+
+# My recent blog posts
