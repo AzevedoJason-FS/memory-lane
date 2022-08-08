@@ -1,20 +1,17 @@
 ---
 layout: default
 ---
-<header>
-    <p id="header">this is head</p>
-</header>
-{{ content }}
-<ul class="myposts">
-    {% for post in site.posts %}
-    <li>
-        <a href="{{post.url}}"x>{{ post.title}}</a>
-    <span class="post_desc">
-        {{post.description}}
-    </span>
-    </li>
-    {% endfor %}
-</ul>
-<footer>
-    <p>this is foot</p>
-</footer>
+
+<div class="main">
+    <h2 id="recent-posts">Recent Blog Posts</h2>
+    <ul class="myposts">
+        {% for post in site.posts %}
+            <li class="post-box">
+                <a href="{{post.url}}" class="post-title">{{ post.title}}</a>
+                <span class="post_desc">
+                    {{post.description}}
+                </span>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

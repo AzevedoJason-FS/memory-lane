@@ -1,3 +1,113 @@
-body{
-    background-color: red;
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------------------- */
+
+header {
+    background-color: rgb(255, 192, 74);;
+}
+
+footer{
+    background-color: rgb(255, 192, 74);
+    color: white;
+    display: flex;
+    height: 10rem;
+    margin-top:6rem;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#social-icon{
+    width: 40px;
+}
+
+.social-box{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#copyright{
+    margin-top: 2rem;
+}
+
+#consoleblog{
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.post-box{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.myposts{
+    display: flex;
+    justify-content: center;
+}
+
+#recent-posts{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.post-title{
+    color: rgb(255, 192, 74);
+    font-size: 1.5rem;
+}
+

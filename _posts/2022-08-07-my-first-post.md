@@ -1,6 +1,6 @@
 ---
-title: My first post
-description: this is a desc
+title: Happy little Bugs =)
+description: In this blog post I talk about the mental strength needed to become a better developer.
 layout: default
 ---
 
