@@ -7,7 +7,7 @@ layout: default
     <ul class="myposts">
         {% for post in site.posts %}
             <li class="post-box">
-                <a href="{{post.url}}" class="post-title">{{ post.title}}</a>
+                <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
                 <span class="post_desc">
                     {{post.description}}
                 </span>
