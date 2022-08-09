@@ -4,7 +4,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -65,7 +65,10 @@ footer{
 }
 
 #social-icon{
-    width: 40px;
+    width: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .social-box{
@@ -75,7 +78,7 @@ footer{
 }
 
 #copyright{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #consoleblog{
@@ -99,11 +102,13 @@ footer{
 .myposts{
     display: flex;
     justify-content: center;
+    margin: 2rem auto;
 }
 
 #recent-posts{
     font-size: 1.8rem;
-    padding: 10px;
+    padding: 10px 10px 10px 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .post-title{
@@ -111,3 +116,21 @@ footer{
     font-size: 1.5rem;
 }
 
+.containerContent{
+    width: 50%;
+    margin: 2rem auto 6rem auto;
+}
+
+.single-post-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.single-post-content{
+    margin-top: 2rem;
+    line-height: 5px;
+}
+
+p{
+    margin-top: 2rem;
+}
