@@ -4,4 +4,4 @@ description: In this blog post I talk about the mental strength needed to become
 layout: singlePost
 ---
 
-![My helpful screenshot](/images/facebook.png)
+![My helpful screenshot](/memory-lane/images/mern/jpeg)
