@@ -1,14 +1,14 @@
 ---
-title: Side-Project
-description: Movie Poster E-commerce Project
+title: React Native
+description: React Native and its benifits
 layout: singlePost
 ---
 
-![My helpful screenshot](/memory-lane/images/mern.jpeg)
+![My helpful screenshot](/memory-lane/images/native.png)
 
-Recently I've been workin on a side project that focuses on using the **MERN** stack. This project revolves around the idea of an e-commerce shop who sells movie posters.
+**React Native** is a javascript-based mobile framework and that's what makes it so popular amongst big and small businesses. Ever since its release in 2015, It has been the number one choice for businesses who want to 'convert' their website into a mobile app for either iOS or Android.
 
-Obviously the required tech to accomplish this successfully are **MongoDB**, **Express**, **React** and **Node.js**.
-I started off by building a REST API that communicates with MongoDB where I can CRUD new or existing movie posters. On the Front-End I call those routes and populate the page by using **.map** so that I can easily get all the fields in the DB. 
+The biggest factor in all this success is its similarity to **React**. React JSX renders HTML-like components like <h1>, <p>, etc. Meanwhile react-native renders native app view components like <View> , <Text>, <Image>, <ScrollView>, so you can't directly reuse your UI component code unless you rework/replace all the elements; which is fine given the amount of time one can save not rewriting thousands of lines of code.
 
-I did not thorughly finish this project because I want to countinously work on it by adding new and better methods to accomplish said tasks. I would love to figure out what is the best way to store images in mongo without slowing down the pages response time; I found this to be a problem when loading my pages.
+React Native ultimately cemented itself as the number one mobile application framework because of all the cons it brought besides its javascript-based structure; Here are a few:
+- Wider Audience, Platform Consistency, Reusable Code, Quicker Development and Reduced Cost. 
