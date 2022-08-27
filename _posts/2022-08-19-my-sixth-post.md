@@ -6,10 +6,14 @@ layout: singlePost
 
 ![My helpful screenshot](/memory-lane/images/jwt_logo.png)
 
-So you may ask yourself, what in the world is a **JSON Web Token**? Well as you could guess it is quite literally what the name defines. It is a self-contained way for securely transmitting information between parties as a JSON object. First it is important to understand the basic structure of a **JSON Web Token**; It consists of thre seperate parts:
+So you may ask yourself, what in the world is a **JSON Web Token**? Well as you could guess it is quite literally what the name defines. It is a self-contained way for securely transmitting information between parties as a JSON object. 
+
+First it is important to understand the basic structure of a **JSON Web Token**; It consists of thre seperate parts:
+
 - Header
 - Payload
 - Signature
+- 
 A typical token would look like this (xxxxx.34ddda.aaaaaa) Hence the periods (.) within the token seperating all three parts.
 
 **Header**
